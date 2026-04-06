@@ -11,13 +11,23 @@ bundle exec jekyll serve
 
 Then open `http://localhost:4000`.
 
-## Before publishing
+## Editing
 
-1. Profile links in `index.html` are set (arXiv quant-ph author search, Google Scholar, LinkedIn). Adjust if your profiles change.
-2. Replace research topics and wrap paper titles in `<a href="…">` (e.g. arXiv or DOI links).
-3. Add `assets/cv.pdf` (or update the CV link path).
-4. Edit the Music section copy.
+- **About:** `index.html` (profile links are at the bottom).
+- **Research:** `research.html` (paper list and arXiv links).
+- **CV:** `cv.html` and the PDF at `assets/cv.pdf`.
+- **Music:** `music.html`.
+
+## If `git push` says the remote has new commits
+
+You probably edited or uploaded files on GitHub. From this folder run:
+
+```bash
+git pull origin main --no-rebase
+```
+
+Fix any merge conflicts (keep the version you want), then `git add` the files and `git commit`, then `git push`.
 
 ## CV file
 
-The site links to `assets/cv.pdf`. Add that file to the repo when ready; until then the link will 404.
+The site links to `assets/cv.pdf`. Replace that file in the repo when you update your CV.
