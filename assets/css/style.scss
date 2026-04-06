@@ -6,7 +6,7 @@
 .home {
   max-width: 38rem;
 
-  nav {
+  .site-nav {
     margin: 0 0 1.75rem;
     padding: 0 0 1rem;
     border-bottom: 1px solid #e8e8e8;
@@ -18,17 +18,8 @@
     }
   }
 
-  section {
-    margin-bottom: 2.25rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
   h2 {
-    margin-top: 0;
-    margin-bottom: 0.65rem;
+    margin: 1.25rem 0 0.5rem;
     font-size: 1.15rem;
     font-weight: 600;
     border-bottom: none;

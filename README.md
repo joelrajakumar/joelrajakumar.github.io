@@ -1,6 +1,6 @@
 # joelrajakumar.github.io
 
-Personal site (GitHub Pages + Jekyll, [minimal theme](https://github.com/pages-themes/minimal)).
+Personal site (GitHub Pages + Jekyll, [minimal theme](https://github.com/pages-themes/minimal)). **About**, **Research**, **CV**, and **Music** are separate pages (`index.html`, `research.html`, `cv.html`, `music.html`); shared navigation lives in `_includes/site-nav.html`.
 
 ## Local preview
 
