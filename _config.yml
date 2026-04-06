@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Joel Rajakumar
-description: Bookmark this
+description: About, research links, CV, and music
+url: https://joelrajakumar.github.io
+baseurl: ""
